@@ -1,0 +1,14 @@
+.footer_wrap {
+    display: grid;
+    grid-template-columns: 1 fr 165px;
+    grid-gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+@media (max-width: 768px) {
+    .footer_wrap{
+        grid-template-columns: auto;
+        justify-items: center;
+}
+}
